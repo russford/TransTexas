@@ -2,7 +2,7 @@ import webbrowser
 from urllib import parse
 
 
-last_date = "2021-08-13"
+last_date = "2021-11-11"
 base_url = "https://docs.google.com/forms/d/e/1FAIpQLSfdtEo8deGXPrQMG0HseajMF4XpoDBNHOpKVL8np-siabbL8Q/viewform?mc_cid=4af05be18d&mc_eid=7d1f4e52bd&"
 activity_url = "https://connect.garmin.com/modern/activity/"
 

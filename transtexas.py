@@ -46,7 +46,8 @@ except (
 ) as err:
     print("Error occurred during Garmin Connect Client init: %s" % err)
     quit()
-except Exception:  # pylint: disable=broad-except
+except Exception as e:  # pylint: disable=broad-except
+    print(e)
     print("Unknown error occurred during Garmin Connect Client init")
     quit()
 
